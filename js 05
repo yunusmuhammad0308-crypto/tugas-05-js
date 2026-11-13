@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // menghitung turun
+        for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+// menghitung naik
+for (let i = 5; i >= 1; i--) {
+  console.log(i);
+}
+
+console.log("mulai");
+
+//variabel
+let angka = 1;
+let total = 0;
+
+while (angka <= 5) {
+  total += angka; // Menambahkan nilai angka ke dalam variabel total
+  angka++;        // Menaikkan nilai angka sebesar 1 agar tidak terjadi infinite loop
+}
+
+console.log(total);
+    </script>
+</body>
+</html>
